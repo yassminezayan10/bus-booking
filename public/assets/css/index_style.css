@@ -1,0 +1,141 @@
+
+
+.home .home-image{
+    background: url(../images/bg.jpeg) no-repeat center center fixed ;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;    background-size: cover;
+  background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, .7);
+z-index: -2;
+}
+.home-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin:auto;
+    color: #fff;
+}
+.home-content h1{
+    font-size: 60px;
+    padding-bottom: 2rem;
+}
+.booking{
+    width: 40%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   border:1px solid #bbb;
+   overflow: auto;
+}
+.register{
+    width: 40%;
+     margin:auto;
+     border:1px solid #bbb;
+    height: 100%;
+}
+.register h3{
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.register form{
+    padding: 20px;
+    overflow: auto;
+
+}
+.booking h3{
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.booking form{
+    padding: 20px;
+    overflow: auto;
+
+}
+.btn{
+    margin: 30px;
+}
+.tickets table{
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.tickets  thead{
+    color: #555;
+    text-align: center;
+}
+.tickets tbody{
+    text-align: center;
+}
+.tickets .seats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tickets .seats .seat{
+    width: 40px;
+    height: 40px;
+    background-color: #f34c2a;
+    color: #fff;
+    margin: 20px;
+}
+.tickets .seats .seat h5{
+    padding:8px ;
+}
+.tickets .btn{
+    margin:40px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+.color1{
+    width: 20px;
+    height: 20px;
+    background-color: #f34c2a;
+    margin-top: 2px;
+    margin-right: 10px;
+
+}
+.color2{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left:10px; 
+
+}
+.color3{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left:10px; 
+
+
+}
+.info span{
+    padding-left: 4px;
+}
