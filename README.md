@@ -1,11 +1,10 @@
 
 
-User Login :
-user@email.com
-Password
-123456Sen
-Admin :
-admin@example.com
+User Login :<br>
+user@email.com<br>
+Password<br>
+123456Sen<br>
+Admin :<br>
+admin@example.com <br>
 same password 
 
-----------------------------------------------------------------------
